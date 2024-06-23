@@ -1,0 +1,388 @@
+<html>
+    <title>
+        Electronics
+    </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/homepage/shoppingcart.png" type="png">
+        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+        <title>Electronics</title>
+    </head>
+    <style> /* to be responsive */
+        h1 {
+            font-family: 'Crete Round', serif;
+            font-weight: bold;
+            color: #444;
+            font-size: 2.25vw;
+            margin-bottom: 1vw;
+        }
+        h3 {
+            font-size: 1vw;
+            color: #444;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1vw;
+            margin-bottom: 1vw;
+        }
+        h2 {
+            font-weight: 300;
+            color: #444;
+            font-size: 2.75vw;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <script>
+        var sum = 0;
+    </script>
+
+<script>
+    function validate() {
+        var input_text = document.getElementById("email");
+        if (input_text.value == "") {
+            alert("Please enter your email.");
+            return false;
+        }
+        alert("Email sybmitted successfully");
+        return false;
+    }
+</script>
+    
+    <body>
+        <header>
+            <div id="wrapper">
+                <h1>Megastore<span class="color">.</span></h1>
+                
+                <h1>&emsp;&emsp;&emsp;&emsp;&emsp;Electronics<span class="color">.</span></h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Electronics.html" style="color: 04b6da;">Electronics</a></li>
+                        <li><a href="furniture.html">Furniture</a></li>
+                        <li><a href="Books.html">Books</a></li>
+                        <li><a href="gallery.html">Groceries</a></li>
+                        <li><a href="clothing.html">Clothing</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <br>
+        <h2>Home appliances</h2>
+        <br><br>
+        <img src="images/electronics/home.jpeg" width="100%" height="75%"> 
+        <br><br><br><br><br><br><br>
+        <!--- container 1 --->
+        <div class="container">
+            <div class="container2">
+                <div >
+                    <img  src="images/electronics/microwave.png"  id="image-1">
+                    <h3>haier Microwave: 79$</h3>  
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=79; alert('Item added to cart successfully\nTotal: '+ sum + '$'); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/TV.png" style="padding: 20px; padding-bottom: 0px; height: 12vw; width: 17vw;">
+                    <h3 style="transform: translate(0,10px);">4K 44" LG TV: 499$</h3>   
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=499; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/stove.png" style="margin-left: 20px; margin-right: 70; height: 12vw; width: 12vw;">
+                    <h3 style="transform: translate(-10px,20px);">haier Stove: 399$</h3>
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=399; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+
+        <!--- container 2 --->
+        <div class="container">
+            
+            <div class="container2">
+                <div style="width: 45vm; height: 30vw; padding: 34px;">
+                    <img src="images/electronics/fridge.png"  style=" height: 30vw; width: 15vw; " >
+                    <h3>haier fridge: 549$</h3>
+                    
+                </div>
+                
+                <p >
+                    <b>Integrated Handles Mean Extra Space</b> <br>
+                    Enjoy a sleek appearance with nothing extra to get hung up on. <br>
+                    No handles means more space so installation is a piece of cake <br>
+                    and your kitchen feels more spacious. <br><br>
+                    <b> Glass Shelving & LED Lighting</b><br>
+                    Modern, adjustable glass shelves offer flexible storage <br>
+                    solutions, and long-lasting, bright LED bulbs provide energy- <br>
+                    efficient lighting, making it easy to see and organize your <br>
+                    foods. Paired with an unexpected blue and gray accented <br>
+                    interior, we've created refrigerators you'll love inside and out. <br><br>
+                    <b>Keep it cool with Internal water & Ice</b> <br>  
+                    Our newest french door refrigerator comes <br>
+                    with a space-saving and conventien internal <br>
+                    water dispenser for cool, filtered water with <br>
+                    one simple touch. Plus, a factory-installed <br>
+                    icemaker gives you ice without the hassle. <br>
+                <br><br><br><br>
+                <a href="#" class="button-1h" onclick="sum+=549; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+                </p>
+                
+                
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/washer.png"  style=" height: 25vw; width: 20vw; margin-left: 1vw; margin-right: 1vw;">
+                    <h3>LG washer: 349$</h3>
+                    <a href="#" class="button-1h"  onclick="sum+=349; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+            
+        <div><a  href="#" class="button-hadi" onclick="alert('Coming soon!'); return false;">View more</a></div>
+        <br><br><br><br><br><br><br><br><br>
+
+        <h2>Gaming Section</h2>
+        <br><br><br><br>
+        <img src="images/electronics/gaming.jpg" width="100%" height="50%"> 
+        <br><br><br><br><br><br><br><br><br>
+
+        <!--- container 3 --->
+        <div class="container">
+            <div class="container2">
+                <div >
+                    <a href="#"><img  src="images/electronics/xbox.png" style="height: 17.5vw; width: 15vw;" ></a>
+                    <h3>XBOX SX: 699$</h3>  
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=699; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/ps4.png"  style="height: 10vw; width: 10vw;"><br><br><br>
+                    <h3 style="transform: translate(0,40px);">PS4: 399$</h3>   
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=399; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/ps5.png" style="margin-left: 20px; margin-right: 70; height: 12.5vw; width: 10vw;">
+                    <h3 style="transform: translate(-20px,40px);">PS5: 599$</h3>
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=599; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+
+        <!--- container 4 --->
+        <div class="container">
+            
+            <div class="container2">
+                <div >
+                    <img src="images/electronics/pc.png" style="height: 30vw; width: 25vw;border-radius: 20%;">
+                    <h3  font-size: 1.5vw;>Gaming PC: 900$</h3>
+                    
+                </div>
+                <ul style="padding-right: 5vw;">
+                <h3 style="color:444; font-size: 1.5vw; text-align: left;">
+                    <li>MOTHERBOARD:</li>
+                    <li>Gigabyte Z690 Aorus</li>
+                    <li>CPU: core i7 11800h</li>
+                    <li>RAM: 16GB DDR5</li>
+                    <li>GPU: RTX 2080 ti</li>
+                    <li>STORAGE: 512GB SSD</li>
+                    <li>PSU: 750W</li>
+                    <li>FULL RGB</li><br><br><br>
+                    <a href="#" class="button-1h" style="font-size: 0.75vw;" onclick="sum+=899; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+                </h3>
+                </ul>
+                
+                
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/switch.png" style="height: 10vw; width: 20vw; margin-left: 3vw; margin-right: 3vw;"><br><br><br><br><br><br>
+                    <h3>Switch: 599$</h3><br><br><br>
+                    <a href="#" class="button-1h" onclick="sum+=599; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <br><br><br><br><br><br>
+        
+        <div><a  href="#" class="button-hadi" onclick="alert('Coming soon!'); return false;">View more</a></div>
+                
+        <br><br><br><br><br><br><br><br><br>
+
+
+        <h2>Phone Section</h2>
+        <br><br><br><br>
+        <img src="images/electronics/phones.jpeg"  width="100%" height="50%"> 
+        <br><br><br>
+
+        <!--- container 5 --->
+        <h2>iphone</h2>
+        <br><br><br>
+        <div class="container">
+            <div class="container2">
+                <div >
+                    <a href="#"><img  src="images/electronics/Iphone13.jpg" style="padding-bottom: 40px; height: 15vw; width: 15vw;"></a>
+                    <h3>Iphone 13 pro max: 1199$</h3>  
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=1199; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/Iphone12.png"style="padding: 20px; padding-bottom: 0px; height: 18.5vw; width: 15vw;">
+                    <h3 style="transform: translate(0,-20px);">Iphone 12: 799$</h3>   
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=799; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/Iphone11.png"  style="margin-left: 20px; margin-right: 70; height: 15vw; width: 15vw;">
+                    <h3 style="transform: translate(-10px,10px);">Iphone 11: 599$</h3>
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=599; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+        </div>
+        <br><br><br>
+        <!--- container 6 --->
+        <h2>samsung</h2>
+        <br><br><br>
+        <div class="container">
+            <div class="container2">
+                <div >
+                    <a href="#"><img  src="images/electronics/s21.png" style="height: 15vw; width: 20vw;"></a>
+                    <h3>s21 ultra: 999$</h3>  
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=999; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/s20.png" style="padding: 20px; padding-bottom: 0px; height: 15vw; width: 15vw;">
+                    <h3 style="transform: translate(0,-10px);" >s20 plus : 799$</h3>   
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=799; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/s9.png" style="margin-left: 20px; margin-right: 70; height: 13.5vw; width: 10vw;">
+                    <h3 style="transform: translate(-10px,10px);">s9 plus : 649$</h3>
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=649; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+        </div>
+
+        <br><br><br>
+        <!--- container 7 --->
+        <h2>huawei</h2>
+        <br><br><br>
+        <div class="container">
+            <div class="container2">
+                <div >
+                    <a href="#"><img  src="images/electronics/mate40.png" style="padding-bottom: 40px; height: 15vw; width: 7.5vw;" ></a>
+                    <h3>Mate 40 Pro: 699$</h3>  
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=699; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/y6p.png" style="padding: 20px; padding-bottom: 50px; height: 15vw; width: 12.5vw;">
+                    <h3 style="transform: translate(0,-20px);">Y6p: 599$</h3>   
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=599; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+            <div class="container2">
+                <div>
+                    <img  class="pic" src="images/electronics/nova7i.png"  style="margin-left: 20px; margin-right: 70; margin-top: 20px; height: 15vw; width: 12.5vw;">
+                    <h3 style="transform: translate(-10px,10px);">nova 7i: 399$</h3>
+                </div>
+                <a href="#" class="button-1h" onclick="sum+=399; alert('Item added to cart successfully\nTotal: '+ sum + '$' ); return false;">Add to cart</a>
+            </div>
+
+        </div>
+        
+        <br><br><br><br><br><br>
+        
+        <div><a  href="#" class="button-hadi" onclick="alert('Coming soon!'); return false;">View more</a></div>
+                
+        <br><br><br><br><br><br><br><br><br>
+    </body>
+
+
+    <footer id="container3">
+        
+            <div>
+                <p>Copyright 2021 &copy; .All rights reserved.</p>
+                <p><a href="#" onclick="alert('currently out of service.'); return false;">Terms of Service</a> &nbsp; <a href="#" onclick="alert('currently out of service.'); return false;">Privacy</a></p>
+            </div>
+            <div>
+                <ul>
+                    <li>Need more help?</li><br>
+                    <li>Contact us: +961 70 99 83 90</li>
+                </ul>
+            </div>
+
+            <form name="tform" action="#" method="post" onsubmit="return validate();">
+                <h5>Sign up</h5>
+                Email:<input type="email" name="email" id = "email" placeholder="project@example.com"><br><br>
+                <input type="submit" value="sign up!">
+                <input type="reset">
+            </form>
+
+            <a href="#" class="button-1h" style="transform: translate(-50px, 30px);" onclick="alert('Your order total is: '+ sum + '$' + '\nThank you for your purchase.\nHave a nice day!'); sum=0; return false;">Cash out</a>
+
+            <div style="transform: translate(-100px,-30px);">
+                <ul>
+                    <li><h5>Megastore</h5></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Books.html">Books</a></li>
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="clothing.html">Clothing</a></li>
+                    <li><a href="gallery.html">groceries</a></li>
+                </ul>
+            </div>
+
+            <div style="transform: translate(-40px,-30px);">
+                <ul>
+                    <li><h5>Developed By</h5></li>
+                    <li>Hadi Al Khansa</li>
+                </ul>
+            </div>
+            
+        
+    </footer>
+</html>

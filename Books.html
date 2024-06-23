@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaStore:Books</title>
+    <link rel="stylesheet" href="bookstyle.css">
+    <link rel="icon" href="images/books/shoppingcart.png" type="png">
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lora:ital,wght@1,500&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lora:ital,wght@1,500&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Dancing+Script:wght@500&family=Lora:ital,wght@1,500&family=Playfair+Display&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lora:ital,wght@1,500&family=Playfair+Display&family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/26699d1316.js" crossorigin="anonymous"></script>
+<script>
+    function validate() {
+        var input_text = document.getElementById("email");
+        if (input_text.value == "") {
+            alert("Please enter your email.");
+            return false;
+        }
+        alert("Submitting form, thank you!");
+        return true;
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div id="wrapperb">
+            <h1>MegaBook<span class="colorb">.</span></h1>
+            <nav class="container">
+                <ul style="font-size: 2vw;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Electronics.html">Electronics</a></li>
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a class="active" href="Books.html">Books</a></li>
+                    <li><a href="gallery.html">Groceries</a></li>
+                    <li><a href="clothing.html">Clothing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="hero-imageb">
+        <h2>WHAT STORY IS YOUR SHELF TELLING?<br/><strong style="font-family: 'Dancing Script', cursive;">Discover what's inside</strong></h2>
+    </div>
+    <br>
+    <div class="add">
+        <h3 style="font-size: 3vw; font-family: 'Playfair Display', serif;">Explore our</h3>
+        <br>
+        <h2 style="font-size: 4vw;font-family: 'Lora', serif; font-family: 'Open Sans Condensed', sans-serif;">FEATURED COLLECTIONS</h2>
+    </div>
+    <div class="small-container">
+        <div class="categories">
+            <div class="row">
+                <div class="col-3">
+                    <a id="caraval" href="#caravaldown">
+                    <img src="images/books/Caraval Paperback Boxed Set by Stephanie Garber.jpeg">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a id="children" href="#childrendown">
+                    <img src="images/books/Childrens Book Collections.jpeg">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a id="harry" href="#potter">
+                    <img src="images/books/harry potter set.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- products --------->
+    <div class="small-container">
+        <h2 class="title">English Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/anna.jpg">
+                <h4>Anna Karenina</h4>
+                <p>Leo Tolstoy</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>15$ <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/little women.jpg">
+                <h4>Little Women</h4>
+                <p>Louisa May Alcott</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$20 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/war.jpg">
+                <h4>Lovely War</h4>
+                <p>Julie Berry</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/jane.jpg">
+                <h4>Jane Eyre</h4>
+                <p>Charlotte Bronte</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Colleen Hoover</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/ends.jpg">
+                <h4>It Ends With Us</h4>
+                <p>Colleen Hoover</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$14 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/reminder of him.jpg">
+                <h4>Reminders of Him</h4>
+                <p>Colleen Hoover</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h5>$13 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ugly love.jpg">
+                <h4>Ugly Love</h4>
+                <p>Colleen Hoover</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/never never.jpg">
+                <h4>Never Never</h4>
+                <p>Colleen Hoover</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Jane Austen</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/pride and.jpg">
+                <h4>Pride and Prejudice</h4>
+                <p>Jane Austen</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$25 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/persuasion.jpg">
+                <h4>Persuasion</h4>
+                <p>Jane Austen</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$20 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/emma.jpg">
+                <h4>Emma</h4>
+                <p>Jane Austen</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$18 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/sense.jpg">
+                <h4>Sense And Sensibility</h4>
+                <p>Jane Austen</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Arabic Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/kbrt.jpg">
+                <h4>كبرت و نسيت ان انسى</h4>
+                <p>بثينة العيسى</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$8 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ana.jpg">
+                <h4>انا قبل كل شىء</h4>
+                <p>الجوهرة الرمال</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$4 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ahbbtok.jpg">
+                <h4>احببتك اكثر مما ينبغي</h4>
+                <p>اثير عبدالله النمشي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ghorba.jpg">
+                <h4>غربة الياسمين</h4>
+                <p>خولة حمدي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$5 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/anta.jpg">
+                <h4>انت لي</h4>
+                <p>منى المرشود</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$30 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/december.jpg">
+                <h4>في ديسمبر تنتهي كل الاحلام</h4>
+                <p>اثير عبدالله النمشي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$19 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ontha.jpg">
+                <h4>في قلبي انثى عبرية</h4>
+                <p>خولة حمدي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$22 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/fal tghfore.jpg">
+                <h4>فلتغفري</h4>
+                <p>اثير عبدالله النمشي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$8 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Guillaume Musso</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/anqzne.jpg">
+                <h4>انقذني</h4>
+                <p>غيوم ميسو</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$18 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ohebbok.jpg">
+                <h4>لانني احبك</h4>
+                <p>غيوم ميسو</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$14 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/fatat.jpg">
+                <h4>فتاة من ورق</h4>
+                <p>غيوم ميسو</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/park.jpg">
+                <h4>سنترال بارك</h4>
+                <p>غيوم ميسو</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Tiktok Trending</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/love hyp.jpg">
+                <h4>The Love Hypothesis</h4>
+                <p>Ali Hazelwood</p>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$11 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/sam.jpg">
+                <h4>You've Reached Sam</h4>
+                <p>Dustin Thao</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$16 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/The Spanish Love Deception.jpg">
+                <h4>The Spanish Love</h4>
+                <p>Elena Armas</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$12 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/liars.jpg">
+                <h4>We Were liars</h4>
+                <p>E.Lockhart</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$8 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/both die.jpg">
+                <h4>They Both Die</h4>
+                <p>Adam Silvera</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$8 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/cinder.jpg">
+                <h4>Cinder</h4>
+                <p>Marissa Meyer</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$8 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/fable.jpg">
+                <h4>Fable</h4>
+                <p>Adrienne Young</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/the invisible.jpg">
+                <h4>The Invisible life</h4>
+                <p>V.E. Schwab</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$7 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Self-Help Books</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/midnight lib.jpg">
+                <h4>The Midnight Library</h4>
+                <p>Matt Haig</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$14 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/ikigai.jpg">
+                <h4>Ikigai</h4>
+                <p>Hector Garcia</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$13 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/atomic habits.jpg">
+                <h4>Atomic Habits</h4>
+                <p>James Clear</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$12 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4"> 
+                <img src="images/books/steve jobs.jpg">
+                <h4>Steve Jobs</h4>
+                <p>Walter Isaacson</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/art of not.jpg">
+                <h4>Not Giving a F*ck</h4>
+                <p>Mark Manson</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/allamobalat.jpg">
+                <h4>فن الامبالاة</h4>
+                <p>مارك مانسون</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/alfostoq.jpg">
+                <h4>نظرية الفستق</h4>
+                <p>فهد عامر الاحمدي</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$9 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/act like.jpg">
+                <h4>Act Like a Lady</h4>
+                <p>Steve Harvey</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$12 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">BTS Recommendation</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/kim jiyoung.jpg">
+                <h4>Kim Jiyoung</h4>
+                <p>Cho Nam-Joo</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$15 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/alchemist.jpg">
+                <h4>The Alchemist</h4>
+                <p>Paulo Coelho</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$13 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/omelas.jpg">
+                <h4>Omelas</h4>
+                <p>Ursula K. Le Guin</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$7 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Series</h2>
+        <div class="row">
+            <div class="col-4">
+                <a id="caravaldown" href="#caraval">
+                <img src="images/books/Caraval Paperback Boxed Set by Stephanie Garber.jpeg"></a>
+                <h4>Caraval</h4>
+                <p>Stephanie Garber</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$30 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <a id="potter" href="#harry">
+                <img src="images/books/h.p2.jpg"></a>
+                <h4>Harry Potter Train</h4>
+                <p>J.K. Rowling</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$300 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/shadow2.jpg">
+                <h4>Grisha Trilogy</h4>
+                <p>Leigh Bardugo</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$20 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/anna of green.jpg">
+                <h4>Anna of Green Galbes</h4>
+                <p>L. M. Montgomery</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$40 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/the cruel prince.jpg">
+                <h4>The Folk of the Air</h4>
+                <p>Holly Black</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$60 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/LBTW5-1200-Angle_8c3d019e-4092-4762-b9bf-4525ee95e8b9_360x.jpg">
+                <h4>Twilight</h4>
+                <p>Stephenie Meyer</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$70 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <a id="childrendown" href="#children">
+            <h2 class="title">For Kids</h2></a>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/peter pan.jpg">
+                <h4>Peter Pan</h4>
+                <p>J.M. Barrie</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h5>$4 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/the little prince.jpg">
+                <h4>The Little Prince</h4>
+                <p>Antoine de Saint-Exupery</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <h5>$7 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+        <h2 class="title">Tote Bag</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/books/tote1.jpg">
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/tote2.jpg">
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+            <div class="col-4">
+                <img src="images/books/tote3.jpg">
+                <h5>$10 <span><a href="#" onclick="alert('Item added to cart!');"><i  class="fa fa-shopping-cart"></i></a></span></h5>
+            </div>
+        </div>
+    </div>
+    <div id="Info">
+        <div id="wrapper">
+            <h3>Hope It Fits Your Taste?</h3>
+            <p style="text-align: center;">Note:I haven't read all the books in this list</p>
+        </div>
+    </div>
+    <footer>
+        <div id="wrapper">
+            <div id="footer-info">
+                <p>Copyright 2021 &copy; .All rights reserved.</p>
+                <p><a href="#">Terms of Service</a> &nbsp; <a href="#">Privacy</a></p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-links">
+                <a href="Books.html"><h4>MegaBook</h4></a>
+                    <h5>Nour Rkein</h5>
+                    <form name="tform" action="#" method="post" onsubmit="return validate();">
+                    <input type="email" name="email" id="email" placeholder="Your email address">
+                    <input id="hemail" type="submit" value= "Sign Up"></div>
+                    </form>
+            <div class="clear"></div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
